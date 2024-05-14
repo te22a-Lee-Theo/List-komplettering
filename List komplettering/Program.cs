@@ -24,6 +24,7 @@ while (true)
 
 if (Answer == "Add" || Answer == "add")
 {
+    System.Console.WriteLine("Insert desired name");
     names.Add(Console.ReadLine());
 }
 
